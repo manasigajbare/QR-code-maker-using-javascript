@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" language="javascript" src="./js/qrcode.js" defer></script>
+    <script type="text/javascript" language="javascript" src="./js/script.js" defer></script>
+</head>
+<body>
+    <div class="main" id="main">
+        <div class="logo">
+            <span>QR Code Generator</span>
+        </div>
+        <input type="text" class="dataBox" name="data" placeholder="Enter Your Content" id="dataBox" value="" autocomplete="false">
+        <button class="btn" id="generateBtn">Generate</button>
+        <div class="qrdiv hide" id="qrdiv">
+            <div class="qrcode" id="qrcode"></div>
+            <button class="downloadBtn" id="downloadBtn">Download</button>
+            <button class="clearBtn" id="clearBtn">Clear</button>
+        </div>
+    </div>
+    
+</body>
+</html>
